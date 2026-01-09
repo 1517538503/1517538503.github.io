@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海外IP认证 - 商品页面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f7;
+            color: #333;
+            line-height: 1.5;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+        }
+        
+        .header {
+            padding: 24px 20px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 4px;
+        }
+        
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #1a1a1a;
+        }
+        
+        .note {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .product-category {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        
+        .category-name {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .category-desc {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .product-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+        
+        .product-info {
+            flex: 1;
+        }
+        
+        .product-name {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .product-desc {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .product-price {
+            text-align: right;
+        }
+        
+        .current-price {
+            font-size: 18px;
+            font-weight: 600;
+            color: #ff3b30;
+            margin-bottom: 2px;
+        }
+        
+        .original-price {
+            font-size: 13px;
+            color: #999;
+            text-decoration: line-through;
+        }
+        
+        .stock {
+            font-size: 13px;
+            margin-top: 4px;
+        }
+        
+        .in-stock {
+            color: #34c759;
+        }
+        
+        .out-of-stock {
+            color: #ff3b30;
+        }
+        
+        .contact-btn {
+            display: inline-block;
+            background-color: #007aff;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            margin-top: 8px;
+        }
+        
+        .contact-btn:hover {
+            background-color: #0056cc;
+        }
+        
+        .add-contact {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #666;
+            margin-top: 8px;
+        }
+        
+        .add-contact:before {
+            content: "•";
+            margin-right: 6px;
+            color: #666;
+        }
+        
+        .no-more {
+            text-align: center;
+            padding: 24px;
+            color: #999;
+            font-size: 14px;
+        }
+        
+        .divider {
+            height: 1px;
+            background-color: #f0f0f0;
+            margin: 0 20px;
+        }
+        
+        .tag {
+            display: inline-block;
+            background-color: #ff3b30;
+            color: white;
+            font-size: 11px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 8px;
+            vertical-align: text-top;
+        }
+        
+        .price-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+        
+        .price-unit {
+            font-size: 14px;
+            color: #ff3b30;
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 12px;
+            }
+            
+            .header {
+                padding: 20px 16px;
+            }
+            
+            .section {
+                padding: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">海外 ip 已认证</h1>
+            <p class="subtitle">官网 · 2 商品</p >
+        </div>
+        
+        <div class="section">
+            <p class="note">因为 ip 需要实时提取，所以请添加客服点击联系他</p >
+            
+            <div class="product-category">
+                <div class="category-name">卡密</div>
+                <div class="category-desc">ip · 包含2种商品</div>
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="section">
+            <h2 class="section-title">选择商品</h2>
+            
+            <div class="product-item">
+                <div class="product-info">
+                    <div class="add-contact">右上角添加客服购买</div>
+                    <div class="price-container">
+                        <span class="price-unit">￥</span>
+                        <span class="current-price">0.01</span>
+                    </div>
+                    <div class="stock out-of-stock">缺货</div>
+                </div>
+            </div>
+            
+            <div class="product-item">
+                <div class="product-info">
+                    <div class="product-name">海外独享 ip</div>
+                    <div class="price-container">
+                        <span class="price-unit">￥</span>
+                        <span class="current-price">10</span>
+                        <span class="original-price">￥40</span>
+                    </div>
+                    <div class="stock in-stock">剩余10件</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="no-more">没有更多了</div>
+    </div>
+
+    <script>
+        // 简单的交互效果
+        document.addEventListener('DOMContentLoaded', function() {
+            // 为产品项添加悬停效果
+            const productItems = document.querySelectorAll('.product-item');
+            
+            productItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.style.backgroundColor = '#f0f7ff';
+                    this.style.boxShadow = '0 2px 8px rgba(0, 122, 255, 0.1)';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.backgroundColor = '#f8f9fa';
+                    this.style.boxShadow = 'none';
+                });
+            });
+            
+            // 模拟缺货产品的点击效果
+            const outOfStockItem = document.querySelector('.out-of-stock').closest('.product-item');
+            outOfStockItem.addEventListener('click', function() {
+                alert('该商品暂时缺货，请选择其他商品或联系客服');
+            });
+            
+            // 模拟有货产品的点击效果
+            const inStockItem = document.querySelector('.in-stock').closest('.product-item');
+            inStockItem.addEventListener('click', function() {
+                alert('已选择"海外独享 ip"，请添加客服完成购买');
+            });
+        });
+    </script>
+</body>
+</html>
